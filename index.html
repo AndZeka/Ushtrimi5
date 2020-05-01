@@ -10,14 +10,45 @@
     <div class="header">
         <img src="logo.png" alt="UBT-LOGO">
         <ul>
-            <li>Home</li>
-            <li>About us</li>
-            <li>Contact</li>
+            <li><a>Home</a></li>
+            <li><a>About us</a></li>
+            <li><a>Contact</a></li>
         </ul>
     </div>
-    <div class="container">
-
+    <center>
+    <div id="main">
+        <div class="loginOrRegister">
+            <button id="loginB" onclick="myFunction1()">
+                <h3 style="color: #F9F9F1;">Login</h3>
+            </button>
+            <button id="registerB" onclick="myFunction2()">
+                <h3 style="color: #F9F9F1;">Register</h3>
+            </button></div>
+        <div id="loginDiv"> 
+            </button> <br> <br>
+            <label for="" style="color: #F9F9F1;">Username: </label> <br>
+            <input type="text" placeholder="username"> <br> <br>
+            <label for="" style="color: #F9F9F1;">Password: </label> <br> 
+            <input type="password" placeholder="password"> <br> <br>
+            <button style="width: 100px; height: 30px; background-color: #28A745; border: none;">Login</button>
+        </div>
+        <div id="registerDiv" style="display: none;">
+            <label for="" style="color: #F9F9F1;">Name: </label> <br>
+            <input type="text" placeholder="Name:"> <br><br>
+            <label for="" style="color: #F9F9F1;">Surname: </label> <br>
+            <input type="text" placeholder="Surname: "> <br><br>
+            <label for="" style="color: #F9F9F1;" >Email: </label> <br>
+            <input type="email" placeholder="Email:"> <br> <br>
+            <label for="" style="color: #F9F9F1;">Password: </label><br>
+            <input type="password" placeholder="Password"> <br><br>
+            <button style="width: 100px; height: 30px; background-color: #28A745; border: none;">Register</button>
+        </div>
     </div>
+</center>
+    <footer>
+        <p>&copy; <br> <b>UBT - Prill 2020</b><p></p>
+        <p><a href="Github Link">https://github.com/AndZeka/Ushtrimi5</a></p>
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>
